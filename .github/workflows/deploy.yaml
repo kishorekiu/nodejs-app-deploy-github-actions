@@ -16,6 +16,6 @@ jobs:
           username: root
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd /root/github-actions-nodejs
+            cd C:\Users\KISHORE\Desktop\Next JS\github-actions-nodejs
             git pull
             docker compose up -d --build
