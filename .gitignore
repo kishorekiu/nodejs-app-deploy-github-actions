@@ -6,6 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+# public_key
+# ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCxhVJ4S98QDTGxt4Vc/+px+Qe+fB/H9PQOYzDhQJdioYH4k8yA9Pplrl3e/yQr0vL9dtBA5NuYNPO9GsAODHN7FhoKRb7bFxcGjCss7tGnNb9AZ4XaLYjJvdHFRupUGPk9f1cnMAIfVIpH0ASVU0iXsPJf8CYuWSvSE12tXDpJVaAmbDIlPU9YUSgw42tza/H/XPnMBGRUic+AfiC9S2c6uE4SzRsPxA0VNIMu3qLQZjPe9GTKBB8q3gEbU2ZEi0beom7oUZKQKx9KbUgl9yILIiXd/yLTwySJc3DLuYKNNt81VGxrR0XMkyKlnJkVxl7VA6fZrF1UYkwpPnDuSZO1/aXIgJkcag2NYm2t0MnGHaY36Y5LJhaGHw2Y6SzhvQkgdetN6Ga12cZA/w4x3L3ut2JTT2QmFWyqAgNlhJU24I3t84Z8lGeS8al4m5TYx9PSYI2cqtSjJ6p2sBABTiTF0gJL3aFx4NIuzmpa+8UytsDLHd6mg5CBxEFZP0fvyP+Y6LsdwZa/k06SPOhwcjf3ual8atMAg1nUylF9WUx5lypnrSDbpzxOkOXlFFel/QggaMCDO4sj3YxDps571fcY/AASy5h3/w7hy4lZc9WNU+BhMqpfKmseBTLdBw+TtiuMR6kbpJ3mf8VWj53LzUhWqsPODpu3gJu/c9y/0PQ6fw== vps@kishore.dev
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
