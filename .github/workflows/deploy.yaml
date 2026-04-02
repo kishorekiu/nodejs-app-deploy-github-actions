@@ -9,12 +9,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Deploy via SSH
-        uses: appleboy/ssh-action@v1.0.3
+        # - name: Deploy via SSH
+        #   uses: appleboy/ssh-action@v1.0.3
         with:
-          host: ${{ secrets.SSH_HOST }}
-          username: root
-          key: ${{ secrets.SSH_KEY }}
+          # host: ${{ secrets.SSH_HOST }}
+          username: KISHORE
+          # key: ${{ secrets.SSH_KEY }}
           script: |
             cd C:\Users\KISHORE\Desktop\Next JS\github-actions-nodejs
             git pull
