@@ -1,21 +1,21 @@
-name: Deploy NodeJS Application to VPS
-"on":
-  push:
-    branches:
-      - main
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        # - name: Deploy via SSH
-        #   uses: appleboy/ssh-action@v1.0.3
-        with:
-          # host: ${{ secrets.SSH_HOST }}
-          username: KISHORE
-          # key: ${{ secrets.SSH_KEY }}
-          script: |
-            cd C:\Users\KISHORE\Desktop\Next JS\github-actions-nodejs
-            git pull
-            docker compose up -d --build
+# name: Deploy NodeJS Application to VPS
+# "on":
+#   push:
+#     branches:
+#       - main
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v4
+#       - name: Deploy via SSH
+#         uses: appleboy/ssh-action@v1.0.3
+#         with:
+#           host: ${{ secrets.SSH_HOST }}
+#           username: KISHORE
+#           key: ${{ secrets.SSH_KEY }}
+#           script: |
+#             cd C:\Users\KISHORE\Desktop\Next JS\github-actions-nodejs
+#             git pull
+#             docker compose up -d --build

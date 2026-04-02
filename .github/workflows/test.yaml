@@ -1,0 +1,19 @@
+name: Mock run Actions Cocker --build
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build and run services
+        run: docker compose up -d --build
+
+      - name: Verify application is running
+        run: |
+          sleep 10 # Give the container a moment to start
+          curl http://localhost:5000 | grep "Hello from the server!!"
