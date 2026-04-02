@@ -1,0 +1,14 @@
+import express from "express";
+
+const app = express();
+const PORT = process.env.PORT ?? 5000;
+
+
+app.get("/", (req, res) => {
+  return res.json({ message: "Hello from the server!!" })
+})
+
+app.listen(PORT, () => {
+  console.log(`Server is up and runnning on PORT: ${PORT}`);
+
+})
